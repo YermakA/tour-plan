@@ -59,7 +59,7 @@
 .swiper
   border-radius: 8px
   position: relative
-  height: 450px
+  height: 100%
   width: 100%
   &::after
       content: ''
@@ -74,6 +74,7 @@
       background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%)
 .slider
     width: 728px
+    height: 450px
     &-button
         position: absolute
         top: 50%
@@ -155,7 +156,7 @@
         margin-left: 8px
     &__button
         width: 100%
-        min-height: : 45px
+        min-height:  45px
         border-radius: 4px
         background-color: $primary
         border: none
@@ -164,8 +165,9 @@
         font-weight: 600
         font-size: 14px
         line-height: 19px
-    .map
-        width: 347px
-        height: 213px
-        
-
+.map
+    width: 347px
+    height: 213px
+    border-radius: 10px
+    overflow: hidden
+    background-color: #000
