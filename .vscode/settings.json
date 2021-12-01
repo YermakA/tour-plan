@@ -1,1 +1,10 @@
-{}
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "files.autoGuessEncoding": true,
+    "eslint.format.enable": true,
+    "prettier.documentSelectors": [
+        ".html"
+    ]
+}
