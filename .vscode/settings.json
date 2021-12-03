@@ -1,10 +1,17 @@
 {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "files.autoGuessEncoding": true,
-    "eslint.format.enable": true,
-    "prettier.documentSelectors": [
-        ".html"
-    ]
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"files.autoGuessEncoding": true,
+	"eslint.format.enable": true,
+	"prettier.endOfLine": "auto",
+	"prettier.htmlWhitespaceSensitivity": "strict",
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"files.autoSave": "onFocusChange",
+	"editor.wordWrap": "on",
+	"editor.defaultFormatter": "HookyQR.beautify",
+	"[sass]": {
+		"editor.defaultFormatter": "syler.sass-indented"
+	}
 }
