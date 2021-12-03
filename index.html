@@ -17,20 +17,20 @@
 </head>
 
 <body>
-  <header class="navbar">
+  <header class="navbar navbar--mobile_fixed">
     <div class="container">
       <div class="navbar-top">
         <a href="#" class="logo">
           <img src="img/horizontal-logo.svg" alt="Best Your Plan" class="logo__image" />
         </a>
-        <form action="#" class="search navbar__search">
+        <form action="#" class="search navbar__search navbar__search--mobile_hidden">
           <input type="text" class="search__input" placeholder="Search Location" />
           <button class="search__button">
             <img src="img/search.svg" alt="Icon search" />
           </button>
         </form>
 
-        <a href="#" class="user navbar__user">
+        <a href="#" class="user navbar__user navbar__user--mobile_hidden">
           <img src="img/image_profile.jfif" alt="avatar: Nathan" class="user__avatar" />
           <span class="user__name">Nathan</span>
         </a>
@@ -47,6 +47,21 @@
     <div class="navbar-bottom">
       <div class="container">
         <ul class="navbar-menu">
+
+
+          <li class="navbar-menu__item navbar-menu__item--mobile_visible "> <a href="#"
+              class="user navbar__user navbar__user--mobile_visible">
+              <img src="img/image_profile.jfif" alt="avatar: Nathan" class="user__avatar" />
+              <span class="user__name user__name--light">Nathan</span>
+            </a></li>
+          <li class=" navbar-menu__item--mobile_visible ">
+            <form action="#" class="search navbar__search navbar__search--mobile_visible">
+              <input type="text" class="search__input" placeholder="Search Location" />
+              <button class="search__button">
+                <img src="img/search.svg" alt="Icon search" />
+              </button>
+            </form>
+          </li>
           <li class="navbar-menu__item">
             <a href="#" class="navbar-menu__link">All Deals</a>
           </li>
@@ -186,150 +201,7 @@
     <!-- /.containter -->
   </section>
 
-  <section class="otherPackages">
-    <h2 class="otherPackages__title">Other Packages</h2>
-    <div class="otherPackages__containerA">
-      <div class="otherPackages__tripcard tripcard tripcard__unique">
-        <span class="tripcard__offer tripcard__offer__unique">Flash Offer</span>
-        <img src="img/5-img.jfif" alt="" class="tripcard__img tripcard__unique_img">
-        <div class="tripcard__bg bg bg__unique">
-          <div class="tripcard__unique_rating">
-            <img src="img/star.svg" alt="star" />
-            <img src="img/star.svg" alt="star" />
-            <img src="img/star.svg" alt="star" />
-            <img src="img/star.svg" alt="star" />
-            <img src="img/star.svg" alt="star" />
-          </div>
-          <h4 class="bg__title bg__unique_title">Hotel Blue Haven</h4>
-          <span class="bg__unique_text">
-            Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim laborum magna llit. Ipsum est fugiat
-            velit ea
-            llamco do esse ut in veniam sun in onsequat. Aute quis duis epteur excepteur ipsum occaecat eiusmod
-            nsectetur enim
-            laborum magna mollit. Ipsum est fugiat velit ea ullamco do
-          </span>
-          <div class="bg-textBlock bg__unique-textBlock">
-            <div class="bg__groupBlock"> <img src="img/map-pin.svg" alt="" class="bg-img">
-              <span class="bg-text">1749 Wheeler Ridge Delaware</span>
-            </div>
-            <div class="bg__groupBlock"> <img src="img/user-img.svg" alt="" class="bg-img">
-              <span class="bg-text">2 x Guests</span>
-            </div>
 
-            <div class="bg__groupBlock"> <img src="img/home-img.svg" alt="" class="bg-img">
-              <span class="bg-text">1 x Room</span>
-            </div>
-
-          </div>
-          <span class="bg__old-cost">$ 10,500</span>
-          <span class="bg__new-cost">$ 8,500</span>
-          <button class="bg__button">Book Now</button>
-        </div>
-      </div>
-      <!-- /.otherPackages__tripcard card -->
-      <div class="otherPackages__tripcard tripcard">
-        <span class="tripcard__offer">Flash Offer</span>
-        <img src="img/1-img.jfif" alt="" class="tripcard__img">
-        <div class="tripcard__bg bg">
-          <h4 class="bg__title">LUX* Belle Mare</h4>
-          <div class="bg-textBlock">
-            <div class="bg__groupBlock"> <img src="img/map-pin.svg" alt="" class="bg-img">
-              <span class="bg-text">1749 Wheeler Ridge Delaware</span>
-            </div>
-            <div class="bg__groupBlock"> <img src="img/user-img.svg" alt="" class="bg-img">
-              <span class="bg-text">2 x Guests</span>
-            </div>
-
-            <div class="bg__groupBlock"> <img src="img/home-img.svg" alt="" class="bg-img">
-              <span class="bg-text">1 x Room</span>
-            </div>
-
-          </div>
-          <span class="bg__old-cost">$ 8,500</span>
-          <span class="bg__new-cost">$ 3,000</span>
-          <button class="bg__button">Book Now</button>
-        </div>
-      </div>
-      <!-- /.otherPackages__tripcard card -->
-    </div>
-    <div class="otherPackages__containerB">
-      <div class="otherPackages__tripcard tripcard">
-        <span class="tripcard__offer">Flash Offer</span>
-        <img src="img/2-img.jfif" alt="" class="tripcard__img">
-        <div class="tripcard__bg bg">
-          <h4 class="bg__title">White Palace</h4>
-          <div class="bg-textBlock">
-            <div class="bg__groupBlock"> <img src="img/map-pin.svg" alt="" class="bg-img">
-              <span class="bg-text">1749 Wheeler Ridge Delaware</span>
-            </div>
-            <div class="bg__groupBlock"> <img src="img/user-img.svg" alt="" class="bg-img">
-              <span class="bg-text">2 x Guests</span>
-            </div>
-
-            <div class="bg__groupBlock"> <img src="img/home-img.svg" alt="" class="bg-img">
-              <span class="bg-text">1 x Room</span>
-            </div>
-
-          </div>
-          <span class="bg__old-cost">$ 10,500</span>
-          <span class="bg__new-cost">$ 9,500</span>
-          <button class="bg__button">Book Now</button>
-        </div>
-      </div>
-      <!-- /.otherPackages__tripcard card -->
-
-      <div class="otherPackages__tripcard tripcard">
-        <span class="tripcard__offer">Flash Offer</span>
-        <img src="img/3-img.jfif" alt="" class="tripcard__img">
-        <div class="tripcard__bg bg">
-          <h4 class="bg__title">Luxury Place</h4>
-          <div class="bg-textBlock">
-            <div class="bg__groupBlock"> <img src="img/map-pin.svg" alt="" class="bg-img">
-              <span class="bg-text">1749 Wheeler Ridge Delaware</span>
-            </div>
-            <div class="bg__groupBlock"> <img src="img/user-img.svg" alt="" class="bg-img">
-              <span class="bg-text">2 x Guests</span>
-            </div>
-
-            <div class="bg__groupBlock"> <img src="img/home-img.svg" alt="" class="bg-img">
-              <span class="bg-text">1 x Room</span>
-            </div>
-
-          </div>
-          <span class="bg__old-cost">$ 4,500</span>
-          <span class="bg__new-cost">$ 2,500</span>
-          <button class="bg__button">Book Now</button>
-        </div>
-      </div>
-      <!-- /.otherPackages__tripcard card -->
-
-      <div class="otherPackages__tripcard tripcard">
-        <span class="tripcard__offer">Flash Offer</span>
-        <img src="img/4-img.jfif" alt="" class="tripcard__img">
-        <div class="tripcard__bg bg">
-          <h4 class="bg__title">Hotel Five Star</h4>
-          <div class="bg-textBlock">
-            <div class="bg__groupBlock"> <img src="img/map-pin.svg" alt="" class="bg-img">
-              <span class="bg-text">1749 Wheeler Ridge Delaware</span>
-            </div>
-            <div class="bg__groupBlock"> <img src="img/user-img.svg" alt="" class="bg-img">
-              <span class="bg-text">2 x Guests</span>
-            </div>
-
-            <div class="bg__groupBlock"> <img src="img/home-img.svg" alt="" class="bg-img">
-              <span class="bg-text">1 x Room</span>
-            </div>
-
-          </div>
-          <span class="bg__old-cost">$ 6,500</span>
-          <span class="bg__new-cost">$ 3,500</span>
-          <button class="bg__button">Book Now</button>
-        </div>
-      </div>
-      <!-- /.otherPackages__tripcard card -->
-
-    </div>
-  </section>
 
   <section class="newsletter" data-speed='80'>
     <div class="newsletter-wrapper">
@@ -497,11 +369,11 @@
               <div class="footer__icon-wrapper"><img class="footer__icon" src="img/map-marker.svg" alt=""></div>
               9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States
             </li>
-            <br class="footer__item footer__item--mb-2">
-            <div class="footer__icon-wrapper"><img class="footer__icon" src="img/phone-call.svg" alt=""></div>
-            Tel (business hours) : 269 1500 </br>
-            Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)</br>
-            Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+            <li class="footer__item footer__item--mb-2">
+              <div class="footer__icon-wrapper"><img class="footer__icon" src="img/phone-call.svg" alt=""></div>
+              Tel (business hours) : 269 1500 <br>
+              Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)</br>
+              Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
             </li>
             <li class="footer__item footer__item--mb-2">
               <div class="footer__icon-wrapper"><img class="footer__icon" src="img/Email.svg" alt=""></div>
